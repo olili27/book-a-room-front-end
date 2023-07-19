@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <hea>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book a Room | Find Office Room</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../styles/style.css">
+  </head>
+  <body>
+    <div>
+      <main
+        class="grid min-h-full place-items-center bg-gradient-to-b from-indigo-300 px-6 py-8 lg:px-8"
+      >
+        <div class="text-center">
+          <h1
+            id="main-heading"
+            class="mb-16 text-4xl border-4 p-4 font-extrabold tracking-tight text-white sm:text-5xl"
+          >
+            MEETING BOOKER
+          </h1>
+          <!-- <div class="border-b"></div> -->
+          <p class="mb-4 text-sm font-normal italic text-indigo-600">
+            _JUST BOOK IT_
+          </p>
+          <p class="mt-2 text-sm font-medium text-gray-600">
+            Type a room number or the name of the person for the office
+          </p>
+          <div class="mt-10 flex items-center justify-center">
+            <form action="" class="min-w-full">
+                <label class="flex items-center px-5 py-2 bg-white justify-center border-2 border-indigo-500 rounded-full min-w-full" for="room-search">
+                    <input id="room-search" class="min-w-full text-sm pr-1 text-gray-600 focus:outline-none" type="text"
+                        placeholder="Search for an office room" name="room-search">
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </label>
+            </form>
+          </div>
+        </div>
+      </main>
+      <footer class="flex items-center justify-center bg-indigo-500 absolute bottom-0 min-w-full text-white px-1 py-4">
+        <p class="text-xs">@2023 Meeting Booker Inc.</p>
+      </footer>
+    </div>
+  </body>
+</html>
